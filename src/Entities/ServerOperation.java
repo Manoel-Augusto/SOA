@@ -33,7 +33,7 @@ public class ServerOperation extends UnicastRemoteObject implements RMIInterface
 
         } catch (Exception e) {
 
-            System.err.println("Server exception: " + e.toString());
+            System.err.println(" Server exception: " + e.toString());
             e.printStackTrace();
 
         }
